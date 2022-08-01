@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       drawer: Drawer(
-        backgroundColor: Colors.blueGrey[400],
+        backgroundColor: Colors.blue,
         child: ListView(
           children: [
             UserAccountsDrawerHeader(
@@ -352,18 +352,18 @@ class _HomePageState extends State<HomePage> {
         decoration: const BoxDecoration(
           image: DecorationImage(
             fit: BoxFit.cover,
-            image: AssetImage('assets/man-1351346_1280.png'),
-            // colorFilter: ColorFilter.mode(
-            //   Colors.white,
-            //   BlendMode.screen,
-            // ),
+            image: AssetImage('assets/123.jpeg'),
+            colorFilter: ColorFilter.mode(
+              Colors.blue,
+              BlendMode.color,
+            ),
           ),
         ),
         child: SafeArea(
           child: Center(
             child: SingleChildScrollView(
               child: Padding(
-                padding: const EdgeInsets.all(32.0),
+                padding: const EdgeInsets.all(16.0),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -371,15 +371,12 @@ class _HomePageState extends State<HomePage> {
                       width: 10,
                       height: 20,
                     ),
-                    BorderedText(
-                      strokeColor: Colors.black,
-                      child: Text(
-                        'জন্ম নিবন্ধন ',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 35,
-                          fontWeight: FontWeight.bold,
-                        ),
+                    Text(
+                      'জন্ম নিবন্ধন ',
+                      style: TextStyle(
+                        color: Colors.blue,
+                        fontSize: 35,
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
                     const SizedBox(
@@ -398,9 +395,9 @@ class _HomePageState extends State<HomePage> {
                       child: const Text(
                         'নতুন জন্ম নিবন্ধন আবেদন',
                         style: TextStyle(
-                          color: Colors.black,
+                          color: Colors.blue,
                           // color: Colors.amberAccent,
-                          fontSize: 17,
+                          fontSize: 15,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -424,8 +421,8 @@ class _HomePageState extends State<HomePage> {
                       child: const Text(
                         'জন্ম নিবন্ধন আবেদনের বর্তমান অবস্থা',
                         style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 17,
+                          color: Colors.blue,
+                          fontSize: 15,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -448,8 +445,8 @@ class _HomePageState extends State<HomePage> {
                       child: const Text(
                         'জন্ম তথ্য সংশোধনের জন্য আবেদন',
                         style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 17,
+                          color: Colors.blue,
+                          fontSize: 15,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -472,8 +469,8 @@ class _HomePageState extends State<HomePage> {
                       child: const Text(
                         'জন্ম নিবন্ধন আবেদন পত্র প্রিন্ট',
                         style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 17,
+                          color: Colors.blue,
+                          fontSize: 15,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -496,8 +493,8 @@ class _HomePageState extends State<HomePage> {
                       child: const Text(
                         'জন্ম নিবন্ধন তথ্য অনুসন্ধান',
                         style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 17,
+                          color: Colors.blue,
+                          fontSize: 15,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -519,8 +516,8 @@ class _HomePageState extends State<HomePage> {
                       child: const Text(
                         'জন্ম নিবন্ধন সনদ পুনঃ মুদ্রন',
                         style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 17,
+                          color: Colors.blue,
+                          fontSize: 15,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -533,15 +530,12 @@ class _HomePageState extends State<HomePage> {
                     /*Done with birth registeation link up,
                      Now start death registration link up*/
 
-                    BorderedText(
-                      strokeColor: Colors.black,
-                      child: Text(
-                        'মৃত্যু নিবন্ধন ',
-                        style: TextStyle(
-                          fontSize: 35,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                        ),
+                    Text(
+                      'মৃত্যু নিবন্ধন ',
+                      style: TextStyle(
+                        fontSize: 35,
+                        color: Colors.blue,
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
                     const SizedBox(
@@ -560,8 +554,8 @@ class _HomePageState extends State<HomePage> {
                       child: const Text(
                         'নতুন মৃত্যু নিবন্ধন আবেদন',
                         style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 17,
+                          color: Colors.blue,
+                          fontSize: 15,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -584,8 +578,8 @@ class _HomePageState extends State<HomePage> {
                       child: const Text(
                         'মৃত্যু নিবন্ধন আবেদনের বর্তমান অবস্থা',
                         style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 17,
+                          color: Colors.blue,
+                          fontSize: 15,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -607,8 +601,8 @@ class _HomePageState extends State<HomePage> {
                       child: const Text(
                         'মৃত্যু তথ্য সংশোধনের জন্য আবেদন',
                         style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 17,
+                          color: Colors.blue,
+                          fontSize: 15,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -630,8 +624,8 @@ class _HomePageState extends State<HomePage> {
                       child: const Text(
                         'মৃত্যু নিবন্ধন আবেদন পত্র প্রিন্ট',
                         style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 17,
+                          color: Colors.blue,
+                          fontSize: 15,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -654,8 +648,8 @@ class _HomePageState extends State<HomePage> {
                       child: const Text(
                         'মৃত্যু নিবন্ধন তথ্য অনুসন্ধান',
                         style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 17,
+                          color: Colors.blue,
+                          fontSize: 15,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -678,8 +672,8 @@ class _HomePageState extends State<HomePage> {
                       child: const Text(
                         'সার্টিফিকেট বাতিলের আবেদন',
                         style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 17,
+                          color: Colors.blue,
+                          fontSize: 15,
                           fontWeight: FontWeight.bold,
                         ),
                       ),

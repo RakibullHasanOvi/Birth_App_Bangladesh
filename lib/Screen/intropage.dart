@@ -1,3 +1,5 @@
+import 'package:birth_registration/Screen/splash_screen.dart';
+
 import 'intro_page_1.dart';
 import 'intro_page_2.dart';
 import 'intro_page_3.dart';

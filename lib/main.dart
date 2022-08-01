@@ -1,6 +1,8 @@
 import 'Screen/intropage.dart';
 import 'package:flutter/material.dart';
 
+import 'Screen/splash_screen.dart';
+
 void main() {
   runApp(const BirthApp());
 }
@@ -14,9 +16,9 @@ class BirthApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'জন্ম নিবন্ধন ',
       theme: ThemeData(
-        primarySwatch: Colors.blueGrey,
+        primarySwatch: Colors.blue,
       ),
-      home: IntroPage(),
+      home: SplachScreen(),
     );
   }
 }
